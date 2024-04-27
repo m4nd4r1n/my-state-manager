@@ -2,3 +2,4 @@ packages:
   - 'configs/*'
   - 'my-atom'
   - 'my-store'
+  - 'demo'
