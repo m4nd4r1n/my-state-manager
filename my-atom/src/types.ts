@@ -15,3 +15,7 @@ export interface WritableAtom<S> extends Atom<S> {
   write: Write<S>;
 }
 
+type Getter = <S>(atom: Atom<S>) => S;
+export type SelectorRead<S> = (get: Getter) => S;
+
+export type Updater<S> = (prevState: S) => S;
