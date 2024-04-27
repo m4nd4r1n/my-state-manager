@@ -1,4 +1,6 @@
 import { Atoms } from './components/atoms';
+import { Stores } from './components/stores';
+
 const App = () => {
   return (
     <div
@@ -10,6 +12,7 @@ const App = () => {
       }}
     >
       <Atoms />
+      <Stores />
     </div>
   );
 };
